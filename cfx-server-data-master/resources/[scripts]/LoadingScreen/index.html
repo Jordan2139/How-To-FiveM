@@ -1,0 +1,58 @@
+<!DOCTYPE html5>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <title>Loading Screen by Nekix</title>
+</head>
+<body style="background-color: black;">
+    <img id="fondo" src="img/fondo.jpg">
+    <font face="Roboto Mono" id="welcome">Welcome to Server Name</font>
+    <hr id="hr1">
+    <img id="logo" src="img/MyLogo.png">
+    <font face="Roboto Mono" id="espacio">Press SPACE for pause the music</font>
+    <hr id="hrbord">
+    <hr id="hr2">
+    <font face=""></font>
+    <a id="discord" href="https://discord.com/invite/4MqR5vz">👉Click here👈</a>
+    <a id="web" href="https://smoothngroove.net">👉Click here👈</a>
+    <font face="Anton" id="discord2">DISCORD</font>
+    <font face="Anton" id="web2">WEB</font>
+    <script src="js/cursor.js"></script>
+    <img id="cursor" src="img/cursor.png">
+    <audio src="media/audio.mp3" id="audio" type="audio/mp3" autoplay></audio>
+<script>
+var play = false;
+var myAudio = document.getElementById("audio");
+var music = true;
+
+if (music == true){
+    myAudio.src = "media/audio.mp3"; //MoStack - Daily Duppy GRM Daily
+    myAudio.volume = 0.1;
+    myAudio.load();
+}
+
+function onKeyDown(event) {
+    switch (event.keyCode) {
+        case 32: //SpaceBar
+            if (play) {
+                myAudio.pause();
+                play = false;
+            } else {
+                myAudio.play();
+                play = true;
+            }
+            break;
+    }
+    return false;
+}
+
+window.addEventListener("keydown", onKeyDown, false);
+</script>
+
+</body>
+</html>
