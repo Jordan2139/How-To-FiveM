@@ -1,8 +1,8 @@
 #  How-To-FiveM
-### A Full Demo Server Made By Jordan.#2139
+ A Full Demo Server Made By Jordan.#2139
 ---
-# Can I Use This Code For My Server?
-### Yes you can use this code for your server, that's the point of this repo! Just remember to configure the bot for your server.
+## Can I Use This Code For My Server?
+ Yes you can use this code for your server, that's the point of this repo! Just remember to configure the bot for your server.
 
 # How Do I Set Up This Code?
 - 1.) Click the green `Code` button in the middle right of your screen
