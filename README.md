@@ -23,9 +23,9 @@ Yes you can use this code for your server, that's the point of this repo! Just r
 - 5.) Navigate to `How-To-FiveM/cfx-server-data-master/resources/[discord-scripts]/Badger_Discord_API/`
   - Open the `config.lua`
   - Navigate to your Discord and copy your guild ID using right click and paste in line `2`
-  ![guildID](https://i.imgur.com/dZLnB0V.mp4)
+  ![guildID](https://i.imgur.com/0eCLcq6.gif)
   - Navigate to [Discord Dev Portal](https://discord.com/developers) and create a bot:
-  ![MakeBot](https://i.imgur.com/FEMRRCG.mp4)
+  ![](https://i.imgur.com/yRyt5t1.gif)
   - Paste your bot token into line `3`
   - Copy and paste your desired role IDs using the same right click method used for guild ID
   ---
