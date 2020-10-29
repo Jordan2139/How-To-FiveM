@@ -1,6 +1,5 @@
-#  How-To-FiveM
+# How-To-FiveM 
 A Full Demo Server Made By Jordan.#2139
----
 ## Can I Use This Code For My Server?
 Yes you can use this code for your server, that's the point of this repo! Just remember to configure the bot for your server.
 
